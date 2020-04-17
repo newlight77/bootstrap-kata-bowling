@@ -54,7 +54,7 @@ __Using Maven :__
 ```
 #mvn -N io.takari:maven:wrapper -Dmaven=3.6.2
 mvn clean test
-mvn clean verify -DCucumberOptions="--glue 'cucumber' --plugin pretty 'features'"
+mvn clean verify
 mvn package
 java -jar target/kata-bowling-1.0-SNAPSHOT.jar MainApp
 ```
